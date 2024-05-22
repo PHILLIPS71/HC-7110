@@ -1,6 +1,4 @@
-using HC_7710.Persistence;
-
-namespace HC_7710;
+namespace HC_7110;
 
 public static class Program
 {

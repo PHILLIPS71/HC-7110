@@ -1,6 +1,6 @@
-﻿using HC_7710.Domain.Objects;
+﻿using HC_7110.Domain.Objects;
 
-namespace HC_7710;
+namespace HC_7110;
 
 public class Constants
 {

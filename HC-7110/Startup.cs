@@ -1,6 +1,6 @@
 ﻿using HotChocolate.AspNetCore;
 
-namespace HC_7710;
+namespace HC_7110;
 
 public class Startup
 {
@@ -16,8 +16,6 @@ public class Startup
         services
             .AddGraphQLServer()
             .AddGlobalObjectIdentification()
-            .AddDefaultTransactionScopeHandler()
-            .AddQueryType()
             .AddHC_7110Types()
             .AddProjections()
             .AddFiltering()

@@ -1,4 +1,4 @@
-﻿namespace HC_7710.Domain.Objects;
+﻿namespace HC_7110.Domain.Objects;
 
 public class Library
 {

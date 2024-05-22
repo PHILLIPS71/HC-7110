@@ -1,7 +1,6 @@
-﻿using HC_7710.Domain.Objects;
-using HC_7710.Persistence;
+﻿using HC_7110.Domain.Objects;
 
-namespace HC_7710.GraphQL.Queries;
+namespace HC_7110.GraphQL.Queries;
 
 [QueryType]
 public class LibraryFindMany

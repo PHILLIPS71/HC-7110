@@ -4,7 +4,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<RootNamespace>HC_5643</RootNamespace>
+		<RootNamespace>HC_7110</RootNamespace>
 		<UserSecretsId>ee9efdb6-c99e-429e-a8b4-40ba966078e2</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
@@ -13,8 +13,6 @@
 		<PackageReference Include="HotChocolate.AspNetCore" Version="14.0.0-p.100" />
 		<PackageReference Include="HotChocolate.Data" Version="14.0.0-p.100" />
 		<PackageReference Include="HotChocolate.Types.Analyzers" Version="14.0.0-p.100" />
-		<PackageReference Include="HotChocolate.Data.EntityFramework" Version="14.0.0-p.100" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.5" />
 	</ItemGroup>
 
 </Project>

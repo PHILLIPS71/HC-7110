@@ -1,5 +1,5 @@
 
-lcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(Ñˆ™½
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(é›Îúÿÿÿÿ
-csharpsquid:S2386"_Use an immutable collection or reduce the accessibility of the public static field 'Libraries'.(é›Îúÿÿÿÿ
-hcsharpsquid:S2223"FChange the visibility of 'Libraries' or make it 'const' or 'readonly'.(é›Îúÿÿÿÿ
+’csharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(Ñˆ™½J$eeabe259-c562-4dc7-b964-b9ddd6815554
+Œcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(é›ÎúÿÿÿÿJ$397086c3-8f91-4339-b90f-ecc14ca18acd
+§csharpsquid:S2386"_Use an immutable collection or reduce the accessibility of the public static field 'Libraries'.(é›ÎúÿÿÿÿJ$7b40b5f8-35c1-4271-ae3c-c18f0ec1edd1
+csharpsquid:S2223"FChange the visibility of 'Libraries' or make it 'const' or 'readonly'.(é›ÎúÿÿÿÿJ$2e9f15f3-820c-42d5-82f6-7bdff786cd16

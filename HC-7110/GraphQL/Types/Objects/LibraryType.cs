@@ -1,8 +1,6 @@
-﻿using HC_7710.Domain.Objects;
-using HC_7710.Persistence;
-using Microsoft.EntityFrameworkCore;
+﻿using HC_7110.Domain.Objects;
 
-namespace HC_7710.GraphQL.Types.Objects;
+namespace HC_7110.GraphQL.Types.Objects;
 
 [ObjectType<Library>]
 public static partial class LibraryType
@@ -18,11 +16,10 @@ public static partial class LibraryType
     }
 
     [NodeResolver]
-    internal static Task<Library?> GetLibraryById(
+    internal static Library? GetLibraryById(
         Guid id,
-        ApplicationDbContext database,
         CancellationToken cancellation)
     {
-        return database.Libraries.SingleOrDefaultAsync(x => x.Id == id, cancellation);
+        return Constants.Libraries.SingleOrDefault(x => x.Id == id);
     }
 }
