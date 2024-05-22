@@ -10,15 +10,10 @@ public static partial class LibraryType
         descriptor
             .ImplementsNode()
             .IdField(p => p.Id);
-        
-        descriptor
-            .Field(p => p.Id);
     }
 
     [NodeResolver]
-    internal static Library? GetLibraryById(
-        Guid id,
-        CancellationToken cancellation)
+    internal static Library? GetLibraryById(Guid id, CancellationToken cancellation)
     {
         return Constants.Libraries.SingleOrDefault(x => x.Id == id);
     }
